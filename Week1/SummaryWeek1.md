@@ -282,3 +282,66 @@ Importância do Pré-processamento: Apesar de muitas vezes ser considerado simpl
 Considerações Finais: A escolha dos métodos de pré-processamento depende da aplicação e do modelo matemático utilizado. Em modelos probabilísticos, a extração de stop-words era comum, mas em redes neurais, essa prática é menos utilizada.
 
 Esses são os principais pontos abordados na aula sobre processamento de linguagem natural.
+
+## Vídeo 5: Problemas II
+
+O vídeo abordou problemas de processamento de linguagem natural relacionados à morfologia das palavras. Esses problemas envolvem identificar partes das palavras ou classificar as palavras em um contexto textual. Alguns dos problemas discutidos incluem:
+
+Separação de junções: Em português, há casos em que palavras são juntas (como "naquelas" para "na" + "aquelas"). Em inglês, essa separação não é necessária.
+
+Expressões multipalavras: São unidades lexicais complexas com significado não decomponível, como "mão na roda", que significa alguém que ajuda muito.
+
+Lemmatização: Extrair os lemas ou radicais das palavras. Por exemplo, "extrair" se tornaria "extrai", "totalmente" se tornaria "total", etc.
+
+Etiquetagem morfossintática: Atribuir etiquetas ou classes morfossintáticas às palavras em uma sentença, como determinante, adjetivo, pronome, etc.
+
+Existem programas disponíveis que fazem a etiquetagem morfossintática por aprendizado automático, usando técnicas como aprendizado supervisionado. Esses programas usam corpus etiquetados para treinar etiquetadores, que podem evoluir com métodos baseados em regras, probabilidade ou redes neurais. A etiquetagem morfossintática pode variar de acordo com a língua, o contexto e a taxonomia utilizada.
+
+1.Selecione apenas as afirmações corretas:
+    
+- Na sentença "A decisão foi feita por mata-mata"   nenhum tipo de palavra ocorre mais de uma vez.
+- Um córpus é uma coleção de recursos relacionados ao  estudo ou processamento de língua natural.
+- A junção consiste na fusão de dois ou mais itens lexicais em uma  única palavra
+- Um stemmer  é um programa que extrai de forma aproximada  a raiz de cada palavra.
+- A etiquetagem morfossintática atribui a cada instância de palavra numa sentença (token) uma etiqueta  morfossintática dependendo do contexto em que o token ocorre na sentença
+
+## Vídeo 6: Problemas III
+
+A videoaula abordou diversos problemas avançados de processamento de linguagem natural, especialmente relacionados à análise sintática de textos completos. Os tópicos mais importantes discutidos foram:
+
+Segmentação: Identificação das principais unidades sintáticas em uma sentença, como sintagmas nominais e verbais. Exemplo: "A primeira coisa que ignoramos é quando há-de ser o dia do Juízo."
+
+Análise sintática rasa: Classificação dos componentes básicos da sentença, como sintagmas nominais e verbais. Exemplo: "A primeira coisa" é um sintagma nominal, enquanto "há-de ser o dia do Juízo" é um sintagma verbal.
+
+Parseamento profundo: Análise sintática completa, com uma notação complexa que inclui categorias vazias e marcações detalhadas dos componentes da sentença.
+
+Reconhecimento de entidades mencionadas (NER): Identificação e classificação de nomes próprios, como acontecimentos ou grupos de pessoas. Exemplo: "Contra-Reforma" foi classificado como acontecimento, enquanto "Jesuítas" foi classificado como grupo de pessoas.
+
+Resolução de anáfora: Encontrar o referente de uma expressão, como um pronome ou sintagma nominal, em um texto. Exemplo: "Ele" e "O idiota" se referem a "João" em diferentes partes do texto.
+
+Esses problemas são desafios complexos no processamento de linguagem natural, e sua resolução envolve análises sintáticas, semânticas e pragmáticas.
+
+## Vídeo 7: Problemas IV
+
+O último módulo abordou problemas semânticos e pragmáticos no processamento de linguagem natural. Os tópicos mais importantes discutidos foram:
+
+Detecção de relações semânticas: Identificação de relações como sinonímia (ex: "redondo" e "esférico"), antonímia (ex: "bom" e "ruim") e hiperonímia (ex: "cachorro" é um mamífero).
+
+Word embedding: Transformação de palavras em vetores numéricos para análise semântica. O método word2vec é utilizado para representar palavras em um espaço n-dimensional, facilitando comparações e análises de similaridade.
+
+Desambiguação: Resolução de ambiguidades semânticas em textos, como distinguir entre diferentes significados de uma palavra com base no contexto.
+
+Parseamento semântico: Transformação de sentenças em linguagem natural em comandos de máquina, como consultas a bancos de dados. Por exemplo, transformar a pergunta "Quais os estados cortados pelo Rio São Francisco?" em um comando SQL.
+
+Tradução automática: Problema complexo que envolve traduzir textos de uma língua para outra. Exemplo: traduzir a frase "Time flies like an arrow" para "O tempo voa como uma flecha" ou "As moscas do tempo gostam de uma seta", dependendo do contexto.
+
+Problemas éticos: Considerações sobre o uso ético da linguagem computacional, como a geração automática de respostas odiosas, disseminação de fake news e identificação de autoria de textos.
+
+Esses problemas são desafios importantes no campo do processamento de linguagem natural, e sua compreensão e abordagem são fundamentais para o desenvolvimento ético e eficaz das tecnologias linguísticas computacionais.
+
+1.Escolha todas as alternativas corretas e apenas estas.
+- Parsear quer dizer analisar sintaticamente uma sentença.
+- O parseamento  profundo realiza uma análise sintática completa e bastante sofisticada de acordo com alguma teoria sintática.
+- O reconhecimento de entidades mencionadas encontra e classifica os nomes próprios do texto, enquanto  a resolução de anáfora pronominal  é capaz de associar pronomes no texto a estas entidades mencionadas.
+- O embedding (inserção vetorial) é um processo que associa a cada palavra no texto a um vetor  numérico n-dimensional.
+- O reconhecimento e enfrentamento de problemas éticos é fundamental no desenvolvimento de sistemas de processamento de texto.
