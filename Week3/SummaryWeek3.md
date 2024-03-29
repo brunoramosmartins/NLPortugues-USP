@@ -42,7 +42,7 @@ Em resumo, a semântica vetorial de palavras é uma abordagem poderosa para repr
 
 ## Vídeo 4: Embeddings
 
-Nesta parte do curso, vamos discutir como representar palavras usando semântica vetorial e gerar essas representações por meio de embeddings. A ideia central é representar palavras como vetores em um espaço n-dimensional, onde palavras semelhantes têm vetores próximos.
+Nesta parte do curso, vamos discutir como representar palavras usando semântica vetorial e gerar essas representações por meio de _embeddings_. A ideia central é representar palavras como vetores em um espaço n-dimensional, onde palavras semelhantes têm vetores próximos.
 
 Os embeddings são inserções de representações em um espaço de dimensão "n", onde cada palavra é representada por um ponto nesse espaço vetorial. A dimensão desse espaço é muito menor que o tamanho do vocabulário, por exemplo, 50, 100, ou até 1024. Esses valores são geralmente escolhidos de forma arbitrária, mas é preferível escolher valores que sejam múltiplos de dois ou de dez.
 
